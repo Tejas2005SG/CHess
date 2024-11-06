@@ -1,4 +1,4 @@
-const socket = io();
+  const socket = io();
 const chess = new Chess();
 
 let chessBoard = document.getElementById("chess-board");
