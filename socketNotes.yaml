@@ -1,0 +1,28 @@
+Socket.io => This npm package is used to make multi-level server. means a single task can be performed by more than one person ex:What'sapp messaging
+
+Socket.io works on simple concept of, ==>  fronted to backend then backend to frontend.
+
+io.on("connection",(uniqueSocket)=>{ // By writing this code The socket is been set up to backend. 
+    console.log("connected"); 
+
+})
+this code is  used to setup backend server.js 
+
+const socket = io();
+this code is used to setup socket.io to frontend 
+
+// 
+
+there are three types of connections:
+// ex:there is a group of 5 peoples
+1. when you send "hey" msg on grp it is seen by al 5 members incuding yourself
+2. the connection between you and only other person // agrp of two(includin you)
+3. when you are typing the   msg is seen by all 4 members expect you , this is known as broadcasting.
+
+// uniqueSocket.emit
+on backend -
+====> uniqueSocket.emit() will emit the result or data from Backend to Frontend
+
+
+on frontend-
+=====> uniqueSocket.emit() will emit the result or data from frontend to Bsckend.

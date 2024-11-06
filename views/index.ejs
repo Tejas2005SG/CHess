@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    <%= title %>
+  </title>
+  <!-- <link rel="stylesheet" href="/src/output.css"> -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/stylesheets/main.css">
+
+
+</head>
+
+<body>
+<!-- <div class="bg-transparent w-full h-screen opacity-0.5 z-20"> -->
+
+</div>
+  <div class=" container w-full h-screen flex justify-center flex-col gap-[100px] z-10 items-center bg-cover bg-no-repeat">
+    <h1 class="text-white text-[35px] font-bold ">Welcome to Checkmate Arena</h1>
+    <div id="chess-board" class="z-40">
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  <script src="https://cdn.socket.io/4.8.0/socket.io.min.js"
+    integrity="sha384-OoIbkvzsFFQAG88r+IqMAjyOtYDPGO0cqK5HF5Uosdy/zUEGySeAzytENMDynREd"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"
+    integrity="sha512-xRllwz2gdZciIB+AkEbeq+gVhX8VB8XsfqeFbUh+SzHlN96dEduwtTuVuc2u9EROlmW9+yhRlxjif66ORpsgVA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/javascript/main.js"></script>
+</body>
+
+</html>

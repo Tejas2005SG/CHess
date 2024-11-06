@@ -1,0 +1,7 @@
+// in built funtions and variables in chess.js
+
+1. move
+2. boardState
+3. turn()
+4. fen()
+5. invalidMove
